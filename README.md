@@ -1,8 +1,8 @@
 # Hi, I'm Sudha Lahari Ganti 👋
 
 🎓 Final-year CS & Data Analytics student @ VIT-AP University  
-💼 Intern @ Emids Technologies  
-🌍 Amaravati, India  
+💼 Intern @ Intelera Technologies  
+🌍 Visakhapatnam, India  
 
 ## 🚀 About Me
 I build end-to-end AI systems — not just notebooks. From real-time crowd detection to RAG search engines and bias-aware resume screening, I love turning ideas into working products.
