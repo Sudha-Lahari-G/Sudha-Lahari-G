@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=22&duration=2500&pause=800&color=E8A33D&center=true&vCenter=true&width=560&lines=Data+Analytics+%2B+AI%2FML+Engineer;YOLOv11+%7C+BERT%2FSBERT+%7C+FastAPI;Building+CrowdAI+%E2%80%94+Real-Time+Density+Estimation;Graduating+May+2026+%7C+VIT-AP+University" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=22&duration=2500&pause=800&color=E8A33D&center=true&vCenter=true&width=560&lines=Data+Analytics+%2B+AI%2FML+Engineer;YOLOv11+%7C+BERT%2FSBERT+%7C+FastAPI;Building+CrowdAI+%E2%80%94+Real-Time+Density+Estimation;Graduating+2026+%7C+VIT-AP+University" alt="Typing SVG" />
 
 </div>
 
@@ -67,7 +67,7 @@ Final-year Computer Science & Engineering (Data Analytics) student at VIT-AP Uni
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudha-Lahari-G&theme=tokyo-night&hide_border=true&bg_color=12151C&color=EDEFF3&line=E8A33D&point=4FD1C5" width="90%" />
+<img src="https://raw.githubusercontent.com/Sudha-Lahari-G/Sudha-Lahari-G/output/snake-dark.svg" width="90%" />
 
 </div>
 
@@ -78,36 +78,3 @@ Final-year Computer Science & Engineering (Data Analytics) student at VIT-AP Uni
 **Reach me:** [LinkedIn](#) · [Email](#)
 
 </div>
-
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # runs once a day
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Sudha-Lahari-G
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-
-      - name: Push snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
