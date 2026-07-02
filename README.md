@@ -56,14 +56,7 @@ Final-year Computer Science & Engineering (Data Analytics) student at VIT-AP Uni
 
 ---
 
-### GitHub stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sudha-Lahari-G&show_icons=true&theme=tokyonight&hide_border=true&bg_color=12151C&title_color=E8A33D&icon_color=4FD1C5&text_color=EDEFF3" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Sudha-Lahari-G&theme=tokyonight&hide_border=true&background=12151C&stroke=E8A33D&ring=4FD1C5&fire=E8A33D&currStreakLabel=EDEFF3" />
-
-</div>
+### Activity
 
 <div align="center">
 
